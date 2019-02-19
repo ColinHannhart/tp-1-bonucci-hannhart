@@ -1,11 +1,14 @@
-Exercice 2
-Titre : Manuel
-1) La commande Which localise une commande ou un binaire 
-2)
+##TP 1 - Installation d’Ubuntu Server et prise
+en main du shell
+
+###Exercice 2. Prise en main de l’interpréteur de commandes
+####Manuel
+1) La commande Which localise une commande ou un binaire (commande faite : man which)
+2) /option
 3) On quitte le manuel en saisissant la commande q
 4) La section 6 parle des differents petits jeux et programmes amusants présent dans le système d'exploitation
 
-Titre : Navigation dans l'arborescence des fichiers
+####Navigation dans l'arborescence des fichiers
 
 1) Pour aller dans le dossier "/var/log", on tape la commande cd /var/log
 2) Pour remonter dans le dossier parent "/var", on tape la commande cd..
@@ -18,7 +21,8 @@ Titre : Navigation dans l'arborescence des fichiers
 9) La commande qui permet de supprimer un dossier est rm -r
 10) Même problème pour le dossier 2 il faut utiliser la commande rm -r
 11) Il faut utiliser la commande rm -r pour supprimer un dossier et son contenu
-Titre : Commandes importantes
+###Exercice 3. Découverte de l’éditeur de texte nano
+#### Commandes importantes
 1) La commande qui permet d'afficher l'heure est la commande date. La commande time affiche l'usage des différentes ressources du système
 2) Les fichiers commençant par un point sont des fichiers cachés 
 3) Le programme ls se situe dans le dossier /bin/ls
@@ -46,6 +50,6 @@ find -name passwd 2> /dev/null
 23) history.log dans le dossier /var/log/apt/historylog
 24) Non il n'apparaît pas car il faut d'abord mettre à jour la relevant database
 
-Titre : Exercice 4 : Personnalisation du shell
+###Exercice 4 : Personnalisation du shell
 3) cp .bashrc ./.bashrc_back puis source_bashrc l'invite de cmd passe bien en couleur
 4)
