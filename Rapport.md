@@ -1,4 +1,4 @@
-Exercice 2
+##Exercice 2
 Titre : Manuel
 1) La commande Which localise une commande ou un binaire 
 2)
